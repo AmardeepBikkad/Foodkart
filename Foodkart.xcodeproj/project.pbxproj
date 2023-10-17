@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3240706E2ADE7E1E004FA1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3240706D2ADE7E1E004FA1F1 /* AppDelegate.swift */; };
+		324070702ADE7E1E004FA1F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3240706F2ADE7E1E004FA1F1 /* SceneDelegate.swift */; };
+		324070722ADE7E1E004FA1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324070712ADE7E1E004FA1F1 /* ViewController.swift */; };
+		324070752ADE7E1E004FA1F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324070732ADE7E1E004FA1F1 /* Main.storyboard */; };
+		324070772ADE7E20004FA1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324070762ADE7E20004FA1F1 /* Assets.xcassets */; };
+		3240707A2ADE7E20004FA1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324070782ADE7E20004FA1F1 /* LaunchScreen.storyboard */; };
+		324070852ADE7E20004FA1F1 /* FoodkartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324070842ADE7E20004FA1F1 /* FoodkartTests.swift */; };
+		3240708F2ADE7E20004FA1F1 /* FoodkartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3240708E2ADE7E20004FA1F1 /* FoodkartUITests.swift */; };
+		324070912ADE7E20004FA1F1 /* FoodkartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324070902ADE7E20004FA1F1 /* FoodkartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		324070812ADE7E20004FA1F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324070622ADE7E1E004FA1F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324070692ADE7E1E004FA1F1;
+			remoteInfo = Foodkart;
+		};
+		3240708B2ADE7E20004FA1F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324070622ADE7E1E004FA1F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324070692ADE7E1E004FA1F1;
+			remoteInfo = Foodkart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3240706A2ADE7E1E004FA1F1 /* Foodkart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodkart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3240706D2ADE7E1E004FA1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3240706F2ADE7E1E004FA1F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		324070712ADE7E1E004FA1F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		324070742ADE7E1E004FA1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		324070762ADE7E20004FA1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		324070792ADE7E20004FA1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3240707B2ADE7E20004FA1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324070802ADE7E20004FA1F1 /* FoodkartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodkartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324070842ADE7E20004FA1F1 /* FoodkartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodkartTests.swift; sourceTree = "<group>"; };
+		3240708A2ADE7E20004FA1F1 /* FoodkartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodkartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3240708E2ADE7E20004FA1F1 /* FoodkartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodkartUITests.swift; sourceTree = "<group>"; };
+		324070902ADE7E20004FA1F1 /* FoodkartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodkartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324070672ADE7E1E004FA1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3240707D2ADE7E20004FA1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324070872ADE7E20004FA1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324070612ADE7E1E004FA1F1 = {
+			isa = PBXGroup;
+			children = (
+				3240706C2ADE7E1E004FA1F1 /* Foodkart */,
+				324070832ADE7E20004FA1F1 /* FoodkartTests */,
+				3240708D2ADE7E20004FA1F1 /* FoodkartUITests */,
+				3240706B2ADE7E1E004FA1F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3240706B2ADE7E1E004FA1F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3240706A2ADE7E1E004FA1F1 /* Foodkart.app */,
+				324070802ADE7E20004FA1F1 /* FoodkartTests.xctest */,
+				3240708A2ADE7E20004FA1F1 /* FoodkartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3240706C2ADE7E1E004FA1F1 /* Foodkart */ = {
+			isa = PBXGroup;
+			children = (
+				3240706D2ADE7E1E004FA1F1 /* AppDelegate.swift */,
+				3240706F2ADE7E1E004FA1F1 /* SceneDelegate.swift */,
+				324070712ADE7E1E004FA1F1 /* ViewController.swift */,
+				324070732ADE7E1E004FA1F1 /* Main.storyboard */,
+				324070762ADE7E20004FA1F1 /* Assets.xcassets */,
+				324070782ADE7E20004FA1F1 /* LaunchScreen.storyboard */,
+				3240707B2ADE7E20004FA1F1 /* Info.plist */,
+			);
+			path = Foodkart;
+			sourceTree = "<group>";
+		};
+		324070832ADE7E20004FA1F1 /* FoodkartTests */ = {
+			isa = PBXGroup;
+			children = (
+				324070842ADE7E20004FA1F1 /* FoodkartTests.swift */,
+			);
+			path = FoodkartTests;
+			sourceTree = "<group>";
+		};
+		3240708D2ADE7E20004FA1F1 /* FoodkartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3240708E2ADE7E20004FA1F1 /* FoodkartUITests.swift */,
+				324070902ADE7E20004FA1F1 /* FoodkartUITestsLaunchTests.swift */,
+			);
+			path = FoodkartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		324070692ADE7E1E004FA1F1 /* Foodkart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324070942ADE7E20004FA1F1 /* Build configuration list for PBXNativeTarget "Foodkart" */;
+			buildPhases = (
+				324070662ADE7E1E004FA1F1 /* Sources */,
+				324070672ADE7E1E004FA1F1 /* Frameworks */,
+				324070682ADE7E1E004FA1F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foodkart;
+			productName = Foodkart;
+			productReference = 3240706A2ADE7E1E004FA1F1 /* Foodkart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3240707F2ADE7E20004FA1F1 /* FoodkartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324070972ADE7E20004FA1F1 /* Build configuration list for PBXNativeTarget "FoodkartTests" */;
+			buildPhases = (
+				3240707C2ADE7E20004FA1F1 /* Sources */,
+				3240707D2ADE7E20004FA1F1 /* Frameworks */,
+				3240707E2ADE7E20004FA1F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324070822ADE7E20004FA1F1 /* PBXTargetDependency */,
+			);
+			name = FoodkartTests;
+			productName = FoodkartTests;
+			productReference = 324070802ADE7E20004FA1F1 /* FoodkartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		324070892ADE7E20004FA1F1 /* FoodkartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3240709A2ADE7E20004FA1F1 /* Build configuration list for PBXNativeTarget "FoodkartUITests" */;
+			buildPhases = (
+				324070862ADE7E20004FA1F1 /* Sources */,
+				324070872ADE7E20004FA1F1 /* Frameworks */,
+				324070882ADE7E20004FA1F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3240708C2ADE7E20004FA1F1 /* PBXTargetDependency */,
+			);
+			name = FoodkartUITests;
+			productName = FoodkartUITests;
+			productReference = 3240708A2ADE7E20004FA1F1 /* FoodkartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324070622ADE7E1E004FA1F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					324070692ADE7E1E004FA1F1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3240707F2ADE7E20004FA1F1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 324070692ADE7E1E004FA1F1;
+					};
+					324070892ADE7E20004FA1F1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 324070692ADE7E1E004FA1F1;
+					};
+				};
+			};
+			buildConfigurationList = 324070652ADE7E1E004FA1F1 /* Build configuration list for PBXProject "Foodkart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324070612ADE7E1E004FA1F1;
+			productRefGroup = 3240706B2ADE7E1E004FA1F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324070692ADE7E1E004FA1F1 /* Foodkart */,
+				3240707F2ADE7E20004FA1F1 /* FoodkartTests */,
+				324070892ADE7E20004FA1F1 /* FoodkartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324070682ADE7E1E004FA1F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3240707A2ADE7E20004FA1F1 /* LaunchScreen.storyboard in Resources */,
+				324070772ADE7E20004FA1F1 /* Assets.xcassets in Resources */,
+				324070752ADE7E1E004FA1F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3240707E2ADE7E20004FA1F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324070882ADE7E20004FA1F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324070662ADE7E1E004FA1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324070722ADE7E1E004FA1F1 /* ViewController.swift in Sources */,
+				3240706E2ADE7E1E004FA1F1 /* AppDelegate.swift in Sources */,
+				324070702ADE7E1E004FA1F1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3240707C2ADE7E20004FA1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324070852ADE7E20004FA1F1 /* FoodkartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324070862ADE7E20004FA1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324070912ADE7E20004FA1F1 /* FoodkartUITestsLaunchTests.swift in Sources */,
+				3240708F2ADE7E20004FA1F1 /* FoodkartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		324070822ADE7E20004FA1F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324070692ADE7E1E004FA1F1 /* Foodkart */;
+			targetProxy = 324070812ADE7E20004FA1F1 /* PBXContainerItemProxy */;
+		};
+		3240708C2ADE7E20004FA1F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324070692ADE7E1E004FA1F1 /* Foodkart */;
+			targetProxy = 3240708B2ADE7E20004FA1F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		324070732ADE7E1E004FA1F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324070742ADE7E1E004FA1F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		324070782ADE7E20004FA1F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324070792ADE7E20004FA1F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		324070922ADE7E20004FA1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		324070932ADE7E20004FA1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		324070952ADE7E20004FA1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Foodkart/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.media.jio.Foodkart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		324070962ADE7E20004FA1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Foodkart/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.media.jio.Foodkart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		324070982ADE7E20004FA1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.media.jio.FoodkartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodkart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Foodkart";
+			};
+			name = Debug;
+		};
+		324070992ADE7E20004FA1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.media.jio.FoodkartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodkart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Foodkart";
+			};
+			name = Release;
+		};
+		3240709B2ADE7E20004FA1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.media.jio.FoodkartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Foodkart;
+			};
+			name = Debug;
+		};
+		3240709C2ADE7E20004FA1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.media.jio.FoodkartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Foodkart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324070652ADE7E1E004FA1F1 /* Build configuration list for PBXProject "Foodkart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324070922ADE7E20004FA1F1 /* Debug */,
+				324070932ADE7E20004FA1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324070942ADE7E20004FA1F1 /* Build configuration list for PBXNativeTarget "Foodkart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324070952ADE7E20004FA1F1 /* Debug */,
+				324070962ADE7E20004FA1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324070972ADE7E20004FA1F1 /* Build configuration list for PBXNativeTarget "FoodkartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324070982ADE7E20004FA1F1 /* Debug */,
+				324070992ADE7E20004FA1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3240709A2ADE7E20004FA1F1 /* Build configuration list for PBXNativeTarget "FoodkartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3240709B2ADE7E20004FA1F1 /* Debug */,
+				3240709C2ADE7E20004FA1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324070622ADE7E1E004FA1F1 /* Project object */;
+}
