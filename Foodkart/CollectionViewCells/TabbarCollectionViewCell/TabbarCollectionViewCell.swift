@@ -17,7 +17,9 @@ class TabbarCollectionViewCell: UICollectionViewCell {
     }
     
     func updateCellData(_ index: Int) {
-//        tabbarTitleLabel.text = tabbarItemArray[index]
-//        tabbarImageView.image = UIImage(named: "\(tabbarItemImages[index])")
+        tabbarImageView.tintColor = index == 0 ? .red : .gray
+        tabbarTitleLabel.textColor = index == 0 ? .red : .gray
+        tabbarTitleLabel.text = tabbarItemArray[index]
+//        tabbarImageView.image = UIImage(named: String(describing: tabbarItemImages[index]))
     }
 }

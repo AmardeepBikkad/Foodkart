@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,17 +16,17 @@
                 <rect key="frame" x="0.0" y="0.0" width="113" height="76"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="RkV-n0-3C0">
-                        <rect key="frame" x="41.666666666666664" y="10.999999999999998" width="29.999999999999993" height="28.666666666666664"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="RkV-n0-3C0">
+                        <rect key="frame" x="44" y="19.666666666666664" width="25" height="24.333333333333336"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="30" id="55L-1p-qXD"/>
-                            <constraint firstAttribute="width" constant="30" id="RG5-8p-Pp0"/>
+                            <constraint firstAttribute="height" constant="25" id="55L-1p-qXD"/>
+                            <constraint firstAttribute="width" constant="25" id="RG5-8p-Pp0"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VO0-nP-1fl">
-                        <rect key="frame" x="35.666666666666664" y="46" width="41.999999999999993" height="20"/>
-                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <rect key="frame" x="37" y="45" width="39.333333333333343" height="18.666666666666671"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -34,20 +34,20 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="VO0-nP-1fl" firstAttribute="top" secondItem="RkV-n0-3C0" secondAttribute="bottom" constant="6" id="Ybd-cu-qtR"/>
-                <constraint firstItem="RkV-n0-3C0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="fwv-rf-v9f"/>
+                <constraint firstItem="VO0-nP-1fl" firstAttribute="top" secondItem="RkV-n0-3C0" secondAttribute="bottom" id="Ybd-cu-qtR"/>
+                <constraint firstItem="RkV-n0-3C0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="fwv-rf-v9f"/>
                 <constraint firstItem="VO0-nP-1fl" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="qCj-Mr-FU1"/>
                 <constraint firstItem="RkV-n0-3C0" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="wCd-RG-f7f"/>
             </constraints>
             <size key="customSize" width="113" height="76"/>
             <connections>
                 <outlet property="tabbarImageView" destination="RkV-n0-3C0" id="8Vi-35-z65"/>
-                <outlet property="tabbarTitleLabel" destination="RkV-n0-3C0" id="Ckx-S2-Xv6"/>
+                <outlet property="tabbarTitleLabel" destination="VO0-nP-1fl" id="waL-1D-oc4"/>
             </connections>
             <point key="canvasLocation" x="165.64885496183206" y="28.87323943661972"/>
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="person.circle" catalog="system" width="128" height="123"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
     </resources>
 </document>

@@ -2,7 +2,7 @@
 //  HomeModel.swift
 //  Foodkart
 //
-//  Created by Amardeep Bikkad on 17/10/23.
+//  Created by Amardeep Bikkad on 19/10/23.
 //
 
 import Foundation
@@ -91,7 +91,7 @@ struct OfferCollections: Codable {
     var id: Int?
     var image: String?
     var textcolor: String?
-    var background : String?
+    var background: String?
     
     enum CodingKeys: String, CodingKey {
         case name = "name"
